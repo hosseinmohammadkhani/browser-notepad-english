@@ -136,33 +136,3 @@ function removeAllNotes(){
 
 //seperated note for every 12 months of the year
 //idea: adding recycle bin - seperated note for every 12 months of the year
-
-
-
-/*
-      <script>
-        document.addEventListener("DOMContentLoaded" , function(){
-          function getFromLS(){
-            let notes;
-            let notesFromLS = localStorage.getItem("userNotes")
-            if(notesFromLS === null){
-              notes = []
-            }
-            else{
-              notes = JSON.parse(notesFromLS)
-            }
-            return notes;
-          }
-
-          let gottenNotesFromLS = getFromLS();
-          gottenNotesFromLS.forEach(element => {
-            let ul = document.createElement("ul")
-            let li = document.createElement("li")
-            li.appendChild(document.createTextNode(element))
-            ul.appendChild(li)
-            document.querySelector("#lsinfo").appendChild(ul)
-          })
-        })
-      </script>
-
-*/
