@@ -1,4 +1,3 @@
-//17:45
 //variables
 const noteList = document.querySelector("#note-list");
 
